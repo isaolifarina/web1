@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+int numA, numB, soma, subt, mult, divisão;
+print("Me fale o valor do primeiro número?");
+scanf("%d", numA); 
+printf("E do segundo?"); 
+scanf("%d", numB); 
+soma= numA+numB; 
+subt= numA-numB;
+mult= numA*numB; 
+divisão= numA/numB; 
+printf("O valor da soma é %d/n" , soma);  
+printf("O valor da subtração é %d/n" , subt);
+printf("O valor da multiplicação é %d/n" , mult); 
+printf("O valor da divisão é %d/n" , divisão); 
+return 0;
