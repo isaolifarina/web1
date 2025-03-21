@@ -15,3 +15,63 @@ printf("O valor da multiplicação é %d\n" , mult);
 printf("O valor da divisão é %d\n" , divisão); 
 return 0;
 }
+
+#include <stdio.h>
+int main() {
+float dolar, cotação, real;
+printf("Qual o valor do dolar?");
+scanf("%f", &dolar);
+printf("Qual o valor da cotação?");
+scanf("%f", &cotação);
+real = dolar*cotação;
+printf("O valor do produto em reais é %.2f", real);
+return 0;
+}
+
+#include <stdio.h>
+int main() {
+float vendas, VT;
+printf("Qual o valor total das vendas?");
+scanf("%f", &VT);
+vendas = VT*10/100;
+printf("O valor da comissão é %.1f", vendas);
+return 0;
+}
+
+#include <stdio.h>
+int main() {
+float CM, Km, L;
+printf("Qual foi a distância percorrida?");
+scanf("%f", &Km);
+printf("Quanto de combustível foi gasto?");
+scanf("%f", &L);
+CM = Km/L;
+printf("O consumo médio foi de %.2f", CM);
+return 0;
+}
+
+#include <stdio.h>
+int main () {
+float comp, larg, m, PT; 
+printf("Qual o comprimento da sala?");
+scanf("%f", &comp);
+printf("E a largura?");
+scanf("%f", &larg);
+printf("O preço do metro quadrado está?");
+scanf("%f", &m);
+PT = ((comp*larg)*m);
+printf("Valor total foi de %.2f", PT);
+return 0;
+}
+
+#include <stdio.h>
+int main() {
+float bits, vel, TF;
+printf("Qual o tamanho do arquivo?");
+scanf("%f", &bits);
+printf("Qual a velocidade?");
+scanf("%f", &vel);
+TF = bits/vel;
+printf("O tempo final foi de %.1f", TF);
+return 0; 
+}
