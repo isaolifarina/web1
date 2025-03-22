@@ -77,11 +77,11 @@ return 0;
 
 #include <stdio.h> 
 int main() {
-int C, F, K;
-printf("Qual a temperatura em Celsius?");
-scanf("%f", &C);
-K = C + 273; 
-F = 1.8*C+32;
-printf("%.2fC = %f.2F = %.2fK", C, F, K);
-return 0
+float C, F, K;
+    printf("Qual a temperatura em Celsius?");
+    scanf("%f", &C);
+    K  = C + 273; 
+    F = 1.8*C+32;
+    printf("%.1fC = %.1fF = %.1fK", C, F, K);
+return 0;
 }
