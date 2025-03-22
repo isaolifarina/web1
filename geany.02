@@ -1,0 +1,87 @@
+#include <stdio.h> 
+int main () {
+int num1, VF; 
+printf("Me diga um número inteiro"); 
+scanf("%d", &num1); 
+VF = num1*2;
+printf("O dobro desse número é %d", VF);
+return 0;
+} 
+
+#include <stdio.h> 
+int main() { 
+int num1, antec, suces; 
+printf("Qual número você quer saber o antecessor e o sucessor?");
+scanf("%d", &num1);
+antec = num1 - 1;
+suces = num1 + 1;
+printf("O antecessor é %d\n", antec); 
+printf("O sucessor é %d", suces); 
+return 0;
+}
+
+#include <stdio.h> 
+int main() { 
+int num1, num2, num3, num4, soma, VT;
+printf("Me diga um número inteiro para o primeiro valor:");
+scanf("%d", &num1); 
+printf("Me diga um número inteiro para o segundo valor:");
+scanf("%d", &num2);
+printf("Para o terceiro valor:");
+scanf("%d", &num3);
+printf("E por último, o quarto:");
+scanf("%d", &num4); 
+soma = num1+num2+num3+num4;
+VT = soma/4; 
+printf("A média final foi de: %d", VT);
+return 0; 
+}
+
+#include <stdio.h> 
+int main() {
+int num1, num2, area;
+printf("Qual o tamanho da base do retângulo?"); 
+scanf("%d", &num1); 
+printf("Qual o valor da altura do retângulo?");
+scanf("%d", &num2);
+area = num1*num2; 
+printf("A área do retângulo é %d", area);
+return 0; 
+}
+
+#include <stdio.h> 
+int main() {
+int num1, num2, troco;
+printf("Qual é o valor pago pelo produto?");
+scanf("%d", &num1);
+printf("Qual o valor do produto?"); 
+scanf("%d", &num2);
+troco = num1 - num2;
+printf("O troco foi de %d", troco); 
+return 0; 
+} 
+
+#include <stdio.h> 
+int main() {
+int num1, desc, acresc, VD, VA; 
+printf("Qual o valor total da compra?"); 
+scanf("%d", &num1);
+desc = num1*10/100; 
+acresc = num1*5/100; 
+VD = num1-desc;
+VA = num1+acresc; 
+printf("Com o desconto de 10%% ficaria %d\n",VD); 
+printf("Com o acréscimo de 5%% ficaria %d",VA);
+return 0; 
+} 
+
+#include <stdio.h> 
+int main() {
+int C, F, K;
+printf("Qual a temperatura em Celsius?");
+scanf("%f", &C);
+K = C + 273; 
+F = 1.8*C+32;
+printf("%.2fC = %f.2F = %.2fK", C, F, K);
+return 0
+}
