@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <style> 
+     div{
+          width: 150px;
+          border: 2px solid #5a5a5a;
+          margin: 5px;
+          height: 150px;
+          box-sizing: border-box;
+          display: inline-block; 
+      }
+
+      div.caixa1{
+          background: #adfbad;  
+      }
+      div.caixa2{
+          background: #ffc1a9;
+      }
+
+      div.circle1{
+          width: 150px;
+          height: 150px;
+          border-radius: 200%;
+          margin: 5px;
+          background: #ffff6b;
+      }
+      div.circle2{
+          width: 150px;
+          height: 150px;
+          border-radius: 200%;
+          margin: 5px;
+          background: #adfbad; 
+      }
+
+      </style>
+</head>
+<body>
+     <div class="circle1"></div>
+     <div class="caixa"></div>
+     <div class="caixa1"></div><br>
+     <div class="caixa2"></div>
+     <div class="circle2"></div>
+     <div class="caixa2"></div><br>
+     <div class="caixa1"></div>
+     <div class="caixa2"></div>
+     <div class="circle1"></div>
+
+
+
+
+</body>
