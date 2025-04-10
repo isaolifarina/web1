@@ -1,0 +1,14 @@
+th {
+    background: black;
+    color: white;
+}
+tr:nth-child(2n){
+    background: beige;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 4px;
+}
